@@ -1,0 +1,55 @@
+# OS files
+.DS_Store
+
+# Pycache / Python
+__pycache__/
+*.pyc
+*/__pycache__/*
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor files
+.idea/
+.vscode/
+.codegraph/
+
+# Storage and logs
+/storage/
+logs/
+streamlit.log
+
+# Media files
+*.mp4
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Models and large files
+/models/
+/models/*
+*.pt
+*.bin
+*.onnx
+
+# Credentials and secrets
+client_secret.json
+youtube_token.json
+meta_credentials.json
+metafinal_credentials.json
+tiktok_credentials.json
+linkedin_credentials.json
+telegram_credentials.json
+twitter_credentials.json
+*token*.json
+.env
+
+# Scratch/temp text scripts
+*script.txt
+
+# Local configuration
+config.toml
+
