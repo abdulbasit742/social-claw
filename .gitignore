@@ -52,4 +52,7 @@ twitter_credentials.json
 
 # Local configuration
 config.toml
+*cookies.json
+*storage_state.json
+instagram_personal.json
 
